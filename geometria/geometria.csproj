@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB8DD93B-8C95-4D76-A266-BCD1979237B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>geometria</RootNamespace>
+    <AssemblyName>geometria</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="circulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="circulo.Designer.cs">
+      <DependentUpon>circulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cubo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cubo.Designer.cs">
+      <DependentUpon>cubo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="esfera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esfera.Designer.cs">
+      <DependentUpon>esfera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formgeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formgeo.Designer.cs">
+      <DependentUpon>Formgeo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="piramide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="piramide.Designer.cs">
+      <DependentUpon>piramide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="circulo.resx">
+      <DependentUpon>circulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cubo.resx">
+      <DependentUpon>cubo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esfera.resx">
+      <DependentUpon>esfera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formgeo.resx">
+      <DependentUpon>Formgeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="piramide.resx">
+      <DependentUpon>piramide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quadrado.resx">
+      <DependentUpon>quadrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="triangulo.resx">
+      <DependentUpon>triangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="quadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quadrado.Designer.cs">
+      <DependentUpon>quadrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="triangulo.Designer.cs">
+      <DependentUpon>triangulo.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

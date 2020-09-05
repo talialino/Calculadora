@@ -1,0 +1,38 @@
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\bin\Debug\geometria.exe
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\bin\Debug\geometria.pdb
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\obj\Debug\geometria.Form1.resources
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\obj\Debug\geometria.Properties.Resources.resources
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\obj\Debug\geometria.csproj.GenerateResource.Cache
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\obj\Debug\geometria.exe
+C:\Users\aluno\AppData\Local\Temporary Projects\geometria\obj\Debug\geometria.pdb
+C:\Users\aluno\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.exe
+C:\Users\aluno\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.pdb
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.exe
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.pdb
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\bin\Debug\geometria.exe
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\bin\Debug\geometria.pdb
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.Formgeo.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.Properties.Resources.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.csproj.GenerateResource.Cache
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.quadrado.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.circulo.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.cubo.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.esfera.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.piramide.resources
+C:\Users\Piu\Desktop\geometria_talia_ccharp\geometria\obj\Debug\geometria.triangulo.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.exe
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.pdb
+D:\IF\LP\geometria_talia_ccharp\geometria\bin\Debug\geometria.exe
+D:\IF\LP\geometria_talia_ccharp\geometria\bin\Debug\geometria.pdb
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\ResolveAssemblyReference.cache
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.circulo.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.cubo.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.esfera.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.Formgeo.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.piramide.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.Properties.Resources.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.quadrado.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.triangulo.resources
+D:\IF\LP\geometria_talia_ccharp\geometria\obj\Debug\geometria.csproj.GenerateResource.Cache
